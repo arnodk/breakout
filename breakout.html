@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="breakout.css">
+		<script src="thirdparty/jquery-3.4.1.min.js"></script>
+        <script src="breakout.js"></script>
+	</head>
+	<body>
+		<div id="playground">
+			<div id="bricks"></div>
+			<div id="ball"></div>
+			<div id="bat"></div>
+			<div id="start" onclick="ball.init();loop.thread();$(this).hide()">start</div>
+		</div>
+	</body>
+</html>

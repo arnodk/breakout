@@ -1,0 +1,64 @@
+#playground {
+    height:99%;
+    width:99%;
+    background-color:transparant;
+    border-style: solid;
+    border-width:0px;
+    border-color: #333;
+    position: absolute;
+
+}
+#bat {
+    position: absolute;
+    width:50px;
+    height:10px;
+    background-color:red;
+    bottom:0px;
+    left:calc(50% - 25px);
+}
+#ball {
+    position: absolute;
+    width:10px;
+    height:10px;
+    top:100px;
+    background-color:green;
+    left:calc(50% - 10px);
+}
+#bricks {
+    width:100%;
+}
+.brick {
+    padding:4px;
+    margin:2px;
+    color:white;
+    background-color:#777;
+    border-style: solid;
+    border-width:1px;
+    border-color:#333;
+    float:left;
+    font-size:10px;
+    font-family: Arial;
+    color:white;
+    text-align: center;
+}
+#start, .break-out-button {
+    background-color:#428BCA;
+    margin-left:calc(50% - 75px);
+    margin-right:calc(50% - 75px);
+    box-sizing: border-box;
+    top:40%;
+    width: 150px;
+    border-radius: 3px;
+    padding:4px;
+    font-family: Arial;
+    font-size: 14px;
+    position: absolute;
+    z-index: 100;
+    cursor:pointer;
+    color:white;
+    text-align: center;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
